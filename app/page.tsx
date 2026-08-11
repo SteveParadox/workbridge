@@ -185,7 +185,7 @@ export default function HomePage() {
                 className="flex items-start gap-3 rounded-md border border-white/10 bg-white/5 p-4"
               >
                 <CheckCircle2 aria-hidden="true" className="mt-0.5 h-5 w-5 text-gold" />
-                <span className="text-sm font-semibold leading-6 text-white/84">
+                <span className="text-sm font-semibold leading-6 text-white">
                   {benefit}
                 </span>
               </div>

@@ -28,7 +28,7 @@ export function SectionHeading({
       {text ? (
         <p
           className={`mt-4 text-base leading-7 sm:text-lg ${
-            light ? "text-white/76" : "text-muted"
+            light ? "text-white" : "text-muted"
           }`}
         >
           {text}
