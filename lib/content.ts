@@ -118,7 +118,8 @@ export const services: Array<{
     description:
       "Flexible workforce support for day-to-day operational and facility needs.",
     icon: Handshake
-  }
+  }, 
+  
 ];
 
 export const processSteps = [

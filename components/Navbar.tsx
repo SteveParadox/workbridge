@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 import { company, navItems } from "@/lib/content";
@@ -35,9 +36,14 @@ export function Navbar() {
         aria-label="Primary navigation"
       >
         <Link href="/" className="focus-ring flex items-center gap-3 rounded-md">
-          <span className="grid h-11 w-11 place-items-center rounded-md bg-navy text-white">
-            <span className="h-4 w-6 border-y-4 border-gold" aria-hidden="true" />
-          </span>
+          <Image
+            src="/logo.jpg"
+            alt={`${company.brandTop} logo`}
+            width={48}
+            height={48}
+            className="h-11 w-11 rounded-md object-cover"
+            priority
+          />
           <span className="leading-tight">
             <span className="block text-sm font-black tracking-[0.12em] text-navy">
               {company.brandTop}

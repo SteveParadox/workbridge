@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { MessageCircle } from "lucide-react";
 import { company, contactItems, navItems, services, whatsappMessage } from "@/lib/content";
@@ -12,9 +13,13 @@ export function Footer() {
       <div className="container-x grid gap-10 py-14 lg:grid-cols-[1.2fr_0.8fr_0.9fr_1fr]">
         <div>
           <div className="flex items-center gap-3">
-            <span className="grid h-11 w-11 place-items-center rounded-md bg-white text-navy">
-              <span className="h-4 w-6 border-y-4 border-gold" aria-hidden="true" />
-            </span>
+            <Image
+              src="/logo.jpg"
+              alt={`${company.brandTop} logo`}
+              width={48}
+              height={48}
+              className="h-11 w-11 rounded-md object-cover"
+            />
             <span className="leading-tight">
               <span className="block text-sm font-black tracking-[0.12em]">
                 {company.brandTop}
