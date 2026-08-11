@@ -118,8 +118,37 @@ export const services: Array<{
     description:
       "Flexible workforce support for day-to-day operational and facility needs.",
     icon: Handshake
-  }, 
-  
+  },
+  {
+    title: "Software Engineers",
+    description:
+      "Experienced developers for web, mobile, backend and product engineering roles.",
+    icon: Sparkles
+  },
+  {
+    title: "Data Analysts",
+    description:
+      "Professionals who turn business data into insights for reporting and decision-making.",
+    icon: ClipboardCheck
+  },
+  {
+    title: "Project Managers",
+    description:
+      "Skilled coordinators to lead delivery, timelines, budgets and cross-functional teams.",
+    icon: BriefcaseBusiness
+  },
+  {
+    title: "Sales Executives",
+    description:
+      "Commercial talent for client acquisition, account growth and revenue generation.",
+    icon: Handshake
+  },
+  {
+    title: "Human Resources Officers",
+    description:
+      "HR professionals for recruitment, onboarding, staff welfare and people operations.",
+    icon: Users
+  }
 ];
 
 export const processSteps = [
