@@ -19,6 +19,44 @@ const initialValues: ApplicationForm = {
   position: ""
 };
 
+const roleOptions = [
+  ...services.map((service) => service.title),
+  "Accountant",
+  "Administrative Assistant",
+  "Architect",
+  "Business Development Manager",
+  "Civil Engineer",
+  "Compliance Officer",
+  "Content Writer",
+  "Customer Success Manager",
+  "Customer Support Specialist",
+  "Data Analyst",
+  "Digital Marketing Specialist",
+  "Electrical Engineer",
+  "Executive Assistant",
+  "Financial Analyst",
+  "Human Resources Officer",
+  "IT Support Specialist",
+  "Legal Assistant",
+  "Logistics Coordinator",
+  "Mechanical Engineer",
+  "Nurse",
+  "Operations Manager",
+  "Pharmacist",
+  "Procurement Officer",
+  "Product Manager",
+  "Project Manager",
+  "Public Relations Officer",
+  "Recruiter",
+  "Sales Executive",
+  "Sales Manager",
+  "Social Media Manager",
+  "Software Engineer",
+  "Supply Chain Manager",
+  "Teacher",
+  "UX Designer"
+];
+
 export function JobApplicationForm() {
   const [values, setValues] = useState(initialValues);
   const [cv, setCv] = useState<File | null>(null);
@@ -91,9 +129,9 @@ export function JobApplicationForm() {
           error={errors.position}
         >
           <option value="">Select a position</option>
-          {services.map((service) => (
-            <option key={service.title} value={service.title}>
-              {service.title}
+          {roleOptions.map((role) => (
+            <option key={role} value={role}>
+              {role}
             </option>
           ))}
         </SelectField>
