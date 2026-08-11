@@ -219,8 +219,10 @@ export const contactItems = [
 export const heroImage =
   "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1400&q=82";
 
-export const aboutImage =
-  "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=1200&q=82";
+export const homeAboutImage =
+  "/bodyflyer.jpg";
+
+export const aboutImage = "/bodyflyer.jpg";
 
 export const operationsImage =
   "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1200&q=82";

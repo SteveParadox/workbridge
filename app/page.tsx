@@ -5,10 +5,10 @@ import { ProcessTimeline } from "@/components/ProcessTimeline";
 import { SectionHeading } from "@/components/SectionHeading";
 import { ServiceCard } from "@/components/ServiceCard";
 import {
-  aboutImage,
   benefits,
   company,
   heroImage,
+  homeAboutImage,
   services,
   trustIndicators,
   whatsappMessage
@@ -96,7 +96,7 @@ export default function HomePage() {
           <div className="relative">
             <div className="overflow-hidden rounded-md shadow-soft">
               <Image
-                src={aboutImage}
+                src={homeAboutImage}
                 alt="Business professional discussing hiring support in an office"
                 width={1200}
                 height={900}
