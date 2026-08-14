@@ -28,9 +28,9 @@ export const company = {
   brandTop: "WORKBRIDGE",
   brandBottom: "CONSULTING NG",
   location: "Port Harcourt, Nigeria",
-  phonePrimary: "0902 104 5545",
-  phoneSecondary: "0808 149 0346",
-  email: "workbridgeconsultingng@gmail.com",
+  phonePrimary: "0808 149 0346",
+  phoneSecondary: "0902 104 5545",
+  email: "precioussaintisreal@gmail.com",
   whatsapp: "2349021045545"
 };
 
