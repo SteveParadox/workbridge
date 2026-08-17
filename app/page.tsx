@@ -149,7 +149,7 @@ export default function HomePage() {
             {services.map((service, index) => (
               <div
                 key={service.title}
-                className={index === 0 || index === 4 || index === 8 ? "lg:row-span-2" : ""}
+                className={index === 0 || index === 4 || index === 8 ? "lg:row-span-0" : ""}
               >
                 <ServiceCard {...service} />
               </div>
